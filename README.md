@@ -23,6 +23,7 @@ Follow these steps to set up your Vue 2 project with TailwindCSS:
 
 ### Step 4: Initialize TailwindCSS
 4. Create the TailwindCSS configuration file:
+
     ```bash
     npx tailwindcss init
     ```
@@ -45,6 +46,7 @@ Follow these steps to set up your Vue 2 project with TailwindCSS:
 
 ### Step 7: Import Tailwind Output CSS
 7. In `App.vue`, under the `<script>` tag, import the output CSS file:
+
     ```js
     import './output.css'
     ```
