@@ -9,12 +9,14 @@ Follow these steps to set up your Vue 2 project with TailwindCSS:
 
 ### Step 2: Initialize Vue Project
 2. Open your terminal and run:
+
     ```bash
     vue create .
     ```
 
 ### Step 3: Install TailwindCSS
 3. Install TailwindCSS as a development dependency:
+
     ```bash
     npm install -D tailwindcss
     ```
@@ -27,12 +29,14 @@ Follow these steps to set up your Vue 2 project with TailwindCSS:
 
 ### Step 5: Configure TailwindCSS
 5. In `tailwind.config.js`, replace the `content` array with:
+
     ```js
     content: ["./src/**/*.{html,js}"],
     ```
 
 ### Step 6: Create Tailwind Input CSS
 6. Create a file named `src/input.css` and add the following content:
+
     ```css
     @tailwind base;
     @tailwind components;
@@ -47,12 +51,14 @@ Follow these steps to set up your Vue 2 project with TailwindCSS:
 
 ### Step 8: Start Development Server
 8. In Git Bash or your terminal, spin up the local server:
+
     ```bash
     npm run serve
     ```
 
 ### Step 9: Activate Tailwind Watcher
 9. In another terminal window, start the TailwindCSS watcher:
+
     ```bash
     npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
     ```
